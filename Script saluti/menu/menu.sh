@@ -5,7 +5,6 @@ ROSSO="\033[0;31m"
 RESET="\033[0m"
 CYAN="\033[0;36m"
 scelta=0
-
 while [ $scelta -ne 3 ]
 do
     echo -e "${ROSSO}===== MENU =====$RESET"
