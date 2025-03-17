@@ -5,7 +5,7 @@ echo -n "Inserisci l'altezza dell'albero: "
 read altezza
 
 # Controlla che l'input sia un numero valido
-if ! [[ "$altezza" =~ ^[0-9]+$ ]]; then
+if ! [[ "$altezza" =~ ^[0-9]+$ ]]; then  //se la condizione è falsa quindi altezza diversa alla stringa
     echo "Errore: devi inserire un numero!"
     exit 1
 fi
